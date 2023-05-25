@@ -6,10 +6,10 @@ import Landing from '../pages/Landing'
 
 const Layout = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Landing />
-    </div>
+    </>
   )
 }
 
