@@ -1,0 +1,23 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* Hero */
+
+.hero {
+  text-align: center;
+}
+
+.hero p {
+  padding: 1rem 0 1.5rem 0;
+}

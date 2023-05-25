@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+.nav-link {
+  color: black;
+}
