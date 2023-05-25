@@ -2,7 +2,7 @@ import React from 'react'
 
 import './App.css'
 
-import Layout from './components/Layout'
+import Navbar from './components/Navbar'
 
 import Landing from './pages/Landing';
 import Precios from './pages/Precios';
@@ -14,14 +14,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const App = () => {
   return (
     <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/precios" element={<Precios />} />
-          <Route path="/productos" element={<Productos />} />
-          <Route path="/soluciones" element={<Soluciones />} />
-        </Routes>
-      </Layout>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/precios" element={<Precios />} />
+        <Route path="/productos" element={<Productos />} />
+        <Route path="/soluciones" element={<Soluciones />} />
+      </Routes>
     </BrowserRouter>
   )
 }
