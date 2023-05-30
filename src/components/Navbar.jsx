@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Navbar.css'
 
-import { ReactComponent as Hamburger } from '../assets/hamburger-menu.svg';
+import Menu from '../assets/menu.svg'
 
 import { Link } from 'react-router-dom';
 
@@ -25,8 +25,8 @@ const Navbar = () => {
               <Link to="/precios" className='nav-link'>Precios</Link>
             </li>
           </ul>
-          <div className="nav-icon">
-            <Hamburger />
+          <div className='nav-icon'>
+            <img src={Menu} alt="Menu" />
           </div>
         </nav>
       </div>
