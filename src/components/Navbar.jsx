@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Navbar.css'
 
-import { ReactComponent as hamburger } from '../assets/hamburger-menu.svg';
+import { ReactComponent as Hamburger } from '../assets/hamburger-menu.svg';
 
 import { Link } from 'react-router-dom';
 
@@ -26,7 +26,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="nav-icon">
-            <hamburger />
+            <Hamburger />
           </div>
         </nav>
       </div>
