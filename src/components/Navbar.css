@@ -18,8 +18,17 @@
   color: black;
 }
 
+.nav-icon {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
+  
   .nav-menu {
     display: none;
+  }
+
+  .nav-icon {
+    display: block;
   }
 }
