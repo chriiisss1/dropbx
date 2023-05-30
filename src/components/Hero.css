@@ -1,0 +1,14 @@
+.hero-wrapper {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.hero p {
+  padding: 1rem 0 1.5rem 0;
+}
+
+@media screen and (max-width: 400px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
